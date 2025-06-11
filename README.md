@@ -5,7 +5,7 @@ AetherCode is a real-time collaborative code editor MVP with AI-powered suggesti
 ## Project Structure
 
 - **client/** – React + Redux front-end with Monaco Editor.
-- **server/** – Node.js + Express API and Socket.IO server.
+- **server/** – Node.js Express + Socket.IO backend.
 - **crdt/** – Yjs-based CRDT synchronization service.
 - **docs/** – Additional documentation and specifications.
 - **scripts/** – Utility scripts for development and deployment.
@@ -13,4 +13,4 @@ AetherCode is a real-time collaborative code editor MVP with AI-powered suggesti
 
 ## Getting Started
 
-Each directory contains a `README.md` with further details. Install dependencies according to the language requirements. Python utilities are listed in `requirements.txt`.
+Each directory contains a `README.md` with further details. Install dependencies according to the language requirements. The server uses Node.js packages listed in `server/package.json`, while Python utilities are listed in `requirements.txt`.
